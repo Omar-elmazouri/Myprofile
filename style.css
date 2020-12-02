@@ -1,0 +1,114 @@
+html {
+	scroll-behavior: 
+}
+
+h1{
+	color:#3891A6;
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center; ;
+	font-family: "Gill Sans", sans-serif;
+	letter-spacing: 2px;
+}
+h2{
+	font-weight: bold;
+	color: #E3655B;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 20px;
+
+}
+
+body {
+	background-color: #DDE3E3;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	font-weight:100;
+
+}
+a { 
+	color: black;
+	font-family: Verdana;
+	font-weight:100;
+}
+
+p {
+	text-align: center;
+	font-family:Verdana, sans-serif ;
+}
+
+img {
+	text-align: center;
+	border-radius: 50%;
+	object-fit: cover;
+	max-width:100%;
+    height:auto;
+    width: 150px;
+}
+
+ul{
+	list-style-type:none;
+	padding-left: 0;
+}
+
+
+
+/* Custom Design with class*/
+
+
+
+
+.container{
+	width: 700px;
+	margin: 20px auto;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.white-card{
+	background-color: white;
+	padding: 20px 10px;
+	margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px (0,0,0,0.1);
+    list-style-type: none;
+    font-weight:50;
+    font-size: small;
+
+}
+
+.btn-blue{
+	background-color:#3891A6;
+	color:#FFFFFF;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 4px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline:{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #3891A6;
+}
+.list-inline i:hover{
+	color: black
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
